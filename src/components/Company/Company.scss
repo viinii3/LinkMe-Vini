@@ -1,0 +1,35 @@
+.company{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A3B6A2;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 24px 27px 53px -17px rgba(0,0,0,0.75);
+
+    &-detail h3{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        padding-bottom: 20px;
+        text-shadow: 4px 4px 3px rgba(0,0,0,0.38);
+    }
+
+    &-link img{
+        height: 80px;
+        width: 238px;
+        border-radius: 20px;
+
+        &:hover{
+            width: 245px;
+            transition:ease 0.2s;
+        }
+    }
+}
+
+
