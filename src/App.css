@@ -3,12 +3,11 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-    font-style: normal;
+  font-style: normal;
 }
 
-.App{
+body{
   background-color: #272e44;
-  height: 100vh;
 }
 
 .flex-container{
@@ -21,8 +20,5 @@
   max-width: 470px;
   min-width: 320px;
   background-color: #404467;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  border: 2px solid #A3B6A2;
   box-shadow: 24px 27px 53px -17px rgba(0,0,0,0.75);
 }

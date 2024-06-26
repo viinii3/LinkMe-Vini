@@ -9,7 +9,6 @@ import Skills from './components/Skills/Skills';
 
 function App() {
   return (
-    <div className="App">
       <div className='flex-container'>
         <div className='container'>
           <Profile/>
@@ -21,7 +20,6 @@ function App() {
           <Footer/>
         </div>
       </div>
-    </div>
   );
 }
 
